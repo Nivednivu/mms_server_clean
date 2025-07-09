@@ -145,12 +145,12 @@ exports.loginAdmin = async (req, res) => {
       message: "Login successful",
       token,
       user: {
-        id: admin._id,
+        id: admin._id, 
         lesseeId: admin.lesseeId,
         fullname: admin.fullname,
         email: admin.email
-      }
-    });
+      } 
+    }); 
 
   } catch (error) {
     console.error('Login error:', error);

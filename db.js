@@ -12,4 +12,4 @@ const { default: mongoose } = require("mongoose");
 
 
 
-// mongodb+srv://mms3:mms3@cluster0.2bigdep.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0    
+// mongodb+srv://mms3:mms3@cluster0.2bigdep.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0     
